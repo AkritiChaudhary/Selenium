@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/home/akritd/IdeaProjects/AmazonAssignment/AmazonAssignment2/src">
+        <classes>
+            <class name="src.amazon.testcases.AmazonTest">
+                <methods>
+                    <include name="verifyDealsAction"/>
+                    <include name="cartCheckAction"/>
+                    <include name="MobileSearch"/>
+                    <include name="AmazonLogin"/>
+                    <include name="MyOrders"/>
+                    <include name="PaymentMethod"/>
+                    <include name="NewAddress"/>
+
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
